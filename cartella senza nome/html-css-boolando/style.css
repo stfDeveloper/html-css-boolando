@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col{
+    float: left;
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.col::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.obj1{
+    background-image: url(img/1.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 250px;
+    
+
+}
+.obj1:hover{
+    background-image: url(img/1b.webp);
+}
+
+.obj2{
+    background-image: url(img/2.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+    
+
+}
+.obj2:hover{
+    background-image: url(img/2b.webp);
+}
+.obj3{
+    background-image: url(img/3.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+    
+
+}
+.obj3:hover{
+    background-image: url(img/3b.webp);
+}
+.obj4{
+    background-image: url(img/4.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 250px;
+}
+.obj4:hover{
+    background-image: url(img/4b.webp);
+}
+.obj5{
+    background-image: url(img/5.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.obj5:hover{
+    background-image: url(img/5b.webp);
+}
+.obj6{
+    background-image: url(img/6.webp);
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    background-size: cover;
+}
+.obj6:hover{
+    background-image: url(img/6b.webp);
+}
